@@ -1,0 +1,12 @@
+[package]
+name = "stack"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StakingPlatform = "0x72c452f21e168480455fca02b8d44dac2dee5b58b8753fe50ca1a6cd9a66aefa"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "4c3c50a8f730a8b54f3ce30e04a8e0dc93f5c705", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
